@@ -8,11 +8,20 @@
     android:orientation="vertical"
     android:gravity="center_horizontal"
     tools:context=".MainActivity">
+    
+    <ImageView
+        android:layout_width="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/dsc"/>
+
 
     <EditText
       android:layout_width="wrap_content"
       android:layout_height="35dp"
       android:layout_marginTop="160dp"
+      android:background="#ffffff"
+      android:drawableLeft="@drawable/password"
       android:hint="username"
 
       />
@@ -20,6 +29,8 @@
         android:layout_marginTop="20dp"
         android:layout_width="wrap_content"
         android:layout_height="35dp"
+        android:background="#ffffff"
+        android:drawableLeft="@drawable/password"
         android:hint="username"
         />
     <Button
