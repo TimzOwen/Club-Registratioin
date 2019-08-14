@@ -23,8 +23,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v)
             {
                 //move to a new intent
-                Intent intent = new Intent(MainActivity.this, RegisterActivity.class);
-                startActivity(intent);
+               startActivity(new Intent(MainActivity.this, RegisterActivity.class));
+                
 
             }
         });
@@ -41,4 +41,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
     }
+//implemet the onCreate options
+
 }
